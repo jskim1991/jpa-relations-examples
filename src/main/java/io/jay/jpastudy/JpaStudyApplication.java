@@ -1,11 +1,10 @@
 package io.jay.jpastudy;
 
-import io.jay.jpastudy.one.manytoone.bidirection.MemberTwo;
-import io.jay.jpastudy.one.manytoone.bidirection.TeamTwo;
-import io.jay.jpastudy.two.manytomany.identifyingrelations.Applicant;
-import io.jay.jpastudy.two.manytomany.identifyingrelations.Interview;
-import io.jay.jpastudy.two.manytomany.identifyingrelations.InterviewId;
-import io.jay.jpastudy.two.manytomany.identifyingrelations.Interviewer;
+import io.jay.jpastudy.chapter5.manytoone.bidirection.MemberTwo;
+import io.jay.jpastudy.chapter5.manytoone.bidirection.TeamTwo;
+import io.jay.jpastudy.chapter6.manytomany.identifyingrelations.Applicant;
+import io.jay.jpastudy.chapter6.manytomany.identifyingrelations.Interview;
+import io.jay.jpastudy.chapter6.manytomany.identifyingrelations.Interviewer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

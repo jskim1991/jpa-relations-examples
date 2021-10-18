@@ -1,5 +1,6 @@
 package io.jay.jpastudy.practice;
 
+import io.jay.jpastudy.practice.base.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,7 +17,7 @@ import java.util.List;
 @Builder
 @Entity
 @Table(name = "Orders")
-public class Order {
+public class Order extends BaseEntity {
 
     @Id
     @GeneratedValue
